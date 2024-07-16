@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WPF_Evaluation_Project.code;
 
 namespace WPF_Evaluation_Project
 {
@@ -16,14 +17,25 @@ namespace WPF_Evaluation_Project
     /// </summary>
     public partial class MainWindow : Window
     {
+        private Login login;
+
         public MainWindow()
         {
             InitializeComponent();
+            login = new Login();
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        private void ButtonClick(object sender, TextChangedEventArgs e)
         {
+            string username = inputUsername.Text;
+            string password = inputPassword.Password;
 
+            if (login.CheckCredentials(username, password))
+            {
+
+            }
+
+            
         }
     }
 }

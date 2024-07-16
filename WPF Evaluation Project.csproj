@@ -11,14 +11,12 @@
 
   <ItemGroup>
     <None Remove="resources\images\psg logo.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="code\" />
+    <None Remove="resources\text\log in.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="resources\images\psg logo.png" />
+    <Resource Include="resources\text\log in.txt" />
   </ItemGroup>
 
   <ItemGroup>
