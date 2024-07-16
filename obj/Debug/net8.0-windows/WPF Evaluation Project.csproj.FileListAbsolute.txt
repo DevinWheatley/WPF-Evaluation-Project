@@ -1,0 +1,23 @@
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\bin\Debug\net8.0-windows\WPF Evaluation Project.exe
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\bin\Debug\net8.0-windows\WPF Evaluation Project.deps.json
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\bin\Debug\net8.0-windows\WPF Evaluation Project.runtimeconfig.json
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\bin\Debug\net8.0-windows\WPF Evaluation Project.dll
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\bin\Debug\net8.0-windows\WPF Evaluation Project.pdb
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project_MarkupCompile.cache
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project_MarkupCompile.lref
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.g.resources
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.AssemblyInfoInputs.cache
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.AssemblyInfo.cs
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.csproj.CoreCompileInputs.cache
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.sourcelink.json
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.dll
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\refint\WPF Evaluation Project.dll
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.pdb
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.genruntimeconfig.cache
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\ref\WPF Evaluation Project.dll
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF_Evaluation_Project.Properties.Resources.resources
+C:\Users\devin\OneDrive\Desktop\WPF Evaluation Project\obj\Debug\net8.0-windows\WPF Evaluation Project.csproj.GenerateResource.cache

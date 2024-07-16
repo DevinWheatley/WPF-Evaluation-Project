@@ -20,5 +20,10 @@ namespace WPF_Evaluation_Project
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

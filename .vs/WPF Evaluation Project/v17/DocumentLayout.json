@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\devin\\source\\repos\\WPF Evaluation Project\\",
+  "WorkspaceRootPath": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|c:\\users\\devin\\source\\repos\\wpf evaluation project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|c:\\users\\devin\\onedrive\\desktop\\wpf evaluation project\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|c:\\users\\devin\\source\\repos\\wpf evaluation project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|c:\\users\\devin\\onedrive\\desktop\\wpf evaluation project\\wpf evaluation project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|solutionrelative:wpf evaluation project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|c:\\users\\devin\\onedrive\\desktop\\wpf evaluation project\\wpf evaluation project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|solutionrelative:wpf evaluation project.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|c:\\users\\devin\\onedrive\\desktop\\wpf evaluation project\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{447BA9FC-0E5A-4113-9A64-1FD96942C2DA}|WPF Evaluation Project.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,15 +26,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WPF Evaluation Project",
+              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\WPF Evaluation Project.csproj",
+              "RelativeDocumentMoniker": "WPF Evaluation Project.csproj",
+              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\WPF Evaluation Project.csproj",
+              "RelativeToolTip": "WPF Evaluation Project.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T22:33:49.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WPF Evaluation Project",
+              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\WPF Evaluation Project.csproj",
+              "RelativeDocumentMoniker": "WPF Evaluation Project.csproj",
+              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\WPF Evaluation Project.csproj",
+              "RelativeToolTip": "WPF Evaluation Project.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-16T22:32:09.46Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\devin\\source\\repos\\WPF Evaluation Project\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\devin\\source\\repos\\WPF Evaluation Project\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-07-16T21:28:57.211Z",
@@ -34,15 +67,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\devin\\source\\repos\\WPF Evaluation Project\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\devin\\source\\repos\\WPF Evaluation Project\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\devin\\OneDrive\\Desktop\\WPF Evaluation Project\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-16T21:28:55.681Z"
+              "WhenOpened": "2024-07-16T21:28:55.681Z",
+              "EditorCaption": ""
             }
           ]
         }
