@@ -8,13 +8,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WPF_Evaluation_Project.code;
 
 namespace WPF_Evaluation_Project
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         private Login login;
@@ -25,17 +21,20 @@ namespace WPF_Evaluation_Project
             login = new Login();
         }
 
-        private void ButtonClick(object sender, TextChangedEventArgs e)
+        private void ButtonClick(object sender, RoutedEventArgs e)
         {
             string username = inputUsername.Text;
             string password = inputPassword.Password;
 
             if (login.CheckCredentials(username, password))
             {
-
+                LoginSuccessWindow loginSuccess = new LoginSuccessWindow();
+                loginSuccess.Show();
             }
-
-            
+            else
+            {
+                MessageBox.Show("Log-In Error: Invalid Username or Password");
+            }
         }
     }
 }

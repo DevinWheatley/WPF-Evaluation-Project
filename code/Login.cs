@@ -8,7 +8,7 @@ using WPF_Evaluation_Project.Properties;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace WPF_Evaluation_Project.code
+namespace WPF_Evaluation_Project
 {
     public class Login
     {
@@ -19,17 +19,20 @@ namespace WPF_Evaluation_Project.code
         {
             string text = Resources.userpass;
             string[] lines = text.Split('\n');
-            for (int i = 1; i < lines.Length - 1; i++) // Start on the second line, ignoring "Username:Password"
+            for (int i = 1; i < lines.Length; i++) // Start on the second line, ignoring "Username:Password"
             {
                 string line = lines[i];
 
                 string[] parts = line.Split(":");
-                string username = parts[0];
-                string password = parts[1];
-
-                if (Username == username && Password == password)
+                if (parts.Length == 2) // Ensure there are exactly two parts (username and password)
                 {
-                    return true;
+                    string username = parts[0].Trim();
+                    string password = parts[1].Trim();
+
+                    if (Username == username && Password == password)
+                    {
+                        return true;
+                    }
                 }
             }
             return false;
