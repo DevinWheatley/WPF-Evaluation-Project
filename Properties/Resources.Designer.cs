@@ -69,15 +69,5 @@ namespace WPF_Evaluation_Project.Properties {
                 return ((byte[])(obj));
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Usernames:Passwords
-        ///testuser:testpass.
-        /// </summary>
-        internal static string userpass {
-            get {
-                return ResourceManager.GetString("userpass", resourceCulture);
-            }
-        }
     }
 }

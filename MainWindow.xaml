@@ -23,7 +23,7 @@
             <RowDefinition Height="auto" />
             <!-- Log-In Button -->
             <RowDefinition Height="auto" />
-            <!-- Message -->
+            <!-- Create Account -->
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="40" />
@@ -35,6 +35,7 @@
         <TextBox x:Name="inputUsername" Grid.Row="4" HorizontalAlignment="Center" Width="200"></TextBox>
         <TextBlock Grid.Row="5" HorizontalAlignment="Center" FontSize="15" Text="Password:"/>
         <PasswordBox x:Name="inputPassword" Grid.Row="6" HorizontalAlignment="Center" Width="200"></PasswordBox>
-        <Button Grid.Row="7" Click="ButtonClick" HorizontalAlignment="Center" Margin="0,10" Padding="5,0">Log-In</Button>
+        <Button Grid.Row="7" Click="LogIn" HorizontalAlignment="Center" Margin="0,10" Padding="5,0,5,3">Log-In</Button>
+        <Button Grid.Row="8" Click="ShowCreateAccount" HorizontalAlignment="Center" Margin="0,10" Padding="5,0,5,3">Create Account</Button>
     </Grid>
 </Window>

@@ -7,16 +7,20 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+
+    <NoWarn>$(NoWarn);NU1701</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
     <None Remove="resources\images\psg logo.png" />
-    <None Remove="resources\text\log in.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess" Version="23.5.0" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="resources\images\psg logo.png" />
-    <Resource Include="resources\text\log in.txt" />
   </ItemGroup>
 
   <ItemGroup>

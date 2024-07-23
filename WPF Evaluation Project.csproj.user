@@ -7,11 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="CreateAccount.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="LoginSuccessWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="CreateAccount.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="LoginSuccessWindow.xaml">
       <SubType>Designer</SubType>
     </Page>

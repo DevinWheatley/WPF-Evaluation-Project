@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Security.Principal;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -19,9 +20,15 @@ namespace WPF_Evaluation_Project
         {
             InitializeComponent();
             login = new Login();
+            Account account = new Account();
+            account.CheckAccountBinExist(); // Creates accounts.bin if it doesn't exit
         }
 
-        private void ButtonClick(object sender, RoutedEventArgs e)
+
+        // LogIn Button
+        // Opens LoginSuccessWindow if CheckCredentials returns True
+        // Shows Error Message if CheckCredentials returns False
+        private void LogIn(object sender, RoutedEventArgs e)
         {
             string username = inputUsername.Text;
             string password = inputPassword.Password;
@@ -35,6 +42,14 @@ namespace WPF_Evaluation_Project
             {
                 MessageBox.Show("Log-In Error: Invalid Username or Password");
             }
+        }
+
+        // ShowCreateAccount Button
+        // Opens CreateAccount Window
+        private void ShowCreateAccount(object sender, RoutedEventArgs e)
+        {
+            CreateAccount createAccount = new CreateAccount();
+            createAccount.Show();
         }
     }
 }
